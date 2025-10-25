@@ -1,0 +1,82 @@
+# ==========================================
+# 🧠 GLOBAL IGNORE RULES
+# ==========================================
+node_modules/
+dist/
+build/
+.cache/
+tmp/
+temp/
+
+# ==========================================
+# 🌐 FRONTEND (Vite + React)
+# ==========================================
+*.local
+*.log
+*.DS_Store
+.vscode/
+.idea/
+.env
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+
+# Vite cache and output
+.vite/
+vite.config.ts.timestamp*
+vite.config.js.timestamp*
+
+# Optional preview cache
+*.pid
+*.seed
+*.pid.lock
+
+# ==========================================
+# 🖥️ BACKEND (Node.js / Express)
+# ==========================================
+# Dependency directories
+backend/node_modules/
+frontend/node_modules/
+
+# Build output
+backend/dist/
+backend/build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Environment files
+backend/.env
+frontend/.env
+
+# Local databases
+*.sqlite
+*.db
+data/
+uploads/
+
+# ==========================================
+# 🧾 SYSTEM FILES
+# ==========================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==========================================
+# 🚀 DEPLOYMENT / PACKAGE FILES
+# ==========================================
+.vercel/
+.env.production
+*.zip
+*.tar.gz
